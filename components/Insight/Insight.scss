@@ -1,0 +1,14 @@
+@import "../../Styles/variables.scss";
+
+
+.gradient-insight{
+    background-image: linear-gradient(to left bottom, #e0c1d3, #d5c2e9, #b2c9ff, #75d4ff, #00ddf7, #00e2eb, #00e5dc, #29e8c9, #37edd4, #45f2de, #52f6e8, #5ffbf1);
+    background-position:  center center;
+    background-size:cover;
+    filter: brightness(60%) blur(120px);
+    width: 200px;
+    height: 300px;
+    transform: translateY(-100px) translateX(400px) rotate(-54.36deg);
+
+
+}

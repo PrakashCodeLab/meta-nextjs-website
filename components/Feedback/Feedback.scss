@@ -1,0 +1,27 @@
+@import "../../Styles/variables.scss";
+
+
+
+.glassmorphism {
+ /* From https://css.glass */
+background: rgba(213, 33, 223, 0.1);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5.7px);
+-webkit-backdrop-filter: blur(5.7px);
+border: 0.5px solid rgba(187, 41, 41, 0.4);
+}
+/* From https://css.glass */
+
+.gradientfeedback{
+    background-image: linear-gradient(to left bottom, #e0c1d3, #d5c2e9, #b2c9ff, #75d4ff, #00ddf7, #00e2eb, #00e5dc, #29e8c9, #37edd4, #45f2de, #52f6e8, #5ffbf1);
+    background-position:  center center;
+    background-size:cover;
+    filter: brightness(100%) blur(140px);
+    width: 180px;
+    height: 100px;
+     top: 100px;
+     left: 0;
+  
+
+}

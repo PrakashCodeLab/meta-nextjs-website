@@ -1,0 +1,13 @@
+@import "../../Styles/variables.scss";
+
+
+.gradientwhatnew{
+    background-image: linear-gradient(to right top, #b74887, #a2458c, #8a438f, #6f4290, #51418e, #42519d, #2d60aa, #006eb4, #0092cf, #00b6e1, #00d9ec, #5ffbf1);
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:380px;
+    height: 300px;
+    transform: rotate(80.46deg) translatex(400px) translateY(-300px);
+    filter: brightness(100%) blur(150px);
+}

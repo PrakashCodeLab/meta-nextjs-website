@@ -1,0 +1,12 @@
+@import "../../Styles/variables.scss";
+
+
+.gradientwoorld{
+    background-image: linear-gradient(to left bottom, #1209a4,  #187ce0, #1b7ec9);
+    background-position: bottom left ;
+    width: 200px;
+    height: 300px;
+    background-size: cover;
+    filter: brightness(200%) blur(120px);
+    transform: rotate(128.6deg) translateX(600px) translateY(500px);
+}

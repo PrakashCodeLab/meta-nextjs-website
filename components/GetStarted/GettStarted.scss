@@ -1,0 +1,18 @@
+@import "../../Styles/variables.scss";
+
+
+.gradient4 {
+    position: absolute;
+    width: 400px;
+    height: 200px;
+    left: -20%;
+    bottom: -30%;
+    
+    background-image: linear-gradient(to right top, #296aca, #5668df, #8660ed, #d2f34f, #3d0e94);
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    filter: blur(170px);
+    transform: rotate(-180deg);
+  }

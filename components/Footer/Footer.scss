@@ -1,0 +1,14 @@
+@import "../../Styles/variables.scss";
+
+.gradientfooter{
+    background-image: linear-gradient(to left bottom, #e0c1d3, #d5c2e9, #b2c9ff, #75d4ff, #00ddf7, #00e2eb, #00e5dc, #29e8c9, #37edd4, #45f2de, #52f6e8, #5ffbf1);
+    background-position:  center center;
+    background-size:cover;
+    filter: brightness(100%) blur(80px);
+    width: 100px;
+    height: 100px;
+     top: 10px;
+     right: 10%;
+  
+
+}
