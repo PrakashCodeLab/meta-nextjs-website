@@ -1,8 +1,12 @@
 import React from 'react';
-import Link
+import Link from 'next/link';
 
-from 'next/link';
-const Heading = ({head}) => {
+ interface headprops{
+  head: string;
+ }
+
+
+const Heading:React.FC<headprops> = ({head}) => {
   return (
     <>
       <Link href="/"><p className=' text-opacity-80 text-[1rem] font-bold border-l-2 pl-1 capitalize text-zinc-950 dark:text-white'>{head}</p></Link>
